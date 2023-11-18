@@ -17,3 +17,5 @@ A few YouTube videos were watched for inspiration
 - [Daeng Coding] (https://youtu.be/TvwAXGBTNy8?si=T3DepfiUkcjnNn8w)
 
 Stretch goal clicking noise on the spin and confetti when the wheel stops.
+
+And to be able to add sections or change them.

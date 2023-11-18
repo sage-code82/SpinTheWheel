@@ -6,6 +6,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -14,10 +15,11 @@ body {
 }
 
 .theWheel {
-  height: 400px;
-  width: 400px;
-  background: #ff6f59;
+  height: 350px;
+  width: 350px;
+  background: #254441;
   position: relative;
+  border: solid 10px antiquewhite;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 10px gray;
@@ -31,9 +33,10 @@ body {
   transform: translateX(-50%);
   transform-origin: bottom;
   position: absolute;
-  left: 20%;
+  left: 21%;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 18px;
   font-family: monospace;
   font-weight: 1000;
