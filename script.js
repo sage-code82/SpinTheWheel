@@ -24,9 +24,11 @@ addItemBtn.onclick = function () {
 deleteItemBtn.onclick = function () {
   let selectedItem = prompt("Delete an Item:");
   if (selectedItem) {
-    let itemToDelete = document.querySelector(".theWheel .wheel-item");
-    if (itemToDelete) {
-      itemToDelete.remove();
-    }
+    let itemsToDelete = document.querySelectorAll(".theWheel .wheel-item");
+    itemsToDelete.forEach((item) => {
+      if (item.textContent.toLowerCase() === selectedItem.toLowerCase()) {
+        item.remove();
+      }
+    });
   }
 };
