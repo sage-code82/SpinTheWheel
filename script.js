@@ -17,6 +17,10 @@ addItemBtn.onclick = function () {
     let newItemDiv = document.createElement("div");
     newItemDiv.textContent = newItem;
     newItemDiv.classList.add("wheel-item");
+    let totalItems = theWheel.childElementCount + 1;
+    let angle = 360 / totalItems;
+    let rotation = angle * (totalItems - 1);
+    newItemDiv.style.transform = `rotate(${rotation}deg) translateX(-50%)`;
     theWheel.appendChild(newItemDiv);
   }
 };
@@ -29,6 +33,15 @@ deleteItemBtn.onclick = function () {
       if (item.textContent.toLowerCase() === selectedItem.toLowerCase()) {
         item.remove();
       }
+    });
+
+    let totalItems = theWheel.childElementCount;
+    let angle = 360 / totalItems;
+    let rotation = 0;
+
+    theWheel.querySelectorAll(".wheel-item").forEach((item) => {
+      item.style.transform = `rotate(${rotation}deg) translateX(-50%)`;
+      rotation += angle;
     });
   }
 };
