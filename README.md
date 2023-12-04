@@ -16,6 +16,6 @@ A few YouTube videos were watched for inspiration
 - [codenath] (https://youtu.be/aKmR3wbQQWE?si=G68Ucfvp22ux6sjU)
 - [Daeng Coding] (https://youtu.be/TvwAXGBTNy8?si=T3DepfiUkcjnNn8w)
 
-Stretch goal clicking noise on the spin and confetti when the wheel stops.
+Version 1. Wheel spins when the button is pressed and chooses a random categrory 18.11.23
 
-And to be able to add sections or change them.
+Version 2. Currently working on this, to be able to add, edit and remove sections. Started work on 4.12.23
