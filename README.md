@@ -19,3 +19,5 @@ A few YouTube videos were watched for inspiration
 Version 1. Wheel spins when the button is pressed and chooses a random categrory 18.11.23
 
 Version 2. Currently working on this, to be able to add, edit and remove sections. Started work on 4.12.23
+
+Update - version 2 is currently not working how I would want it to. The add button and delete button work but only on items that I add after the original 6. They also are put in random shapes in the wheel and not consistent to the wheel.
